@@ -103,3 +103,28 @@ background:#0066ff;
 text-align:center;
 margin-top:15px;
 }
+
+.radio-container{
+display:flex;
+gap:20px;
+padding:20px;
+flex-wrap:wrap;
+}
+
+.radio-card{
+background:#1e1e1e;
+padding:25px;
+border-radius:8px;
+width:200px;
+text-align:center;
+}
+
+.radio-card button{
+margin-top:10px;
+padding:8px 15px;
+border:none;
+background:#0046ad;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
