@@ -227,3 +227,13 @@ background:#333;
 padding:20px;
 border-radius:6px;
 }
+
+.ad-section{
+margin:30px;
+text-align:center;
+}
+
+.ad-section img{
+width:320px;
+border-radius:8px;
+}
