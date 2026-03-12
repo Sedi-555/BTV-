@@ -63,14 +63,32 @@ font-size:14px;
 .channels{
 display:flex;
 flex-wrap:wrap;
-gap:15px;
+gap:25px;
 padding:20px;
 }
 
-.channel{
-background:#333;
-padding:20px;
+.channel-card{
+background:rgba(20,20,20,0.9);
+padding:15px;
+border-radius:10px;
+width:220px;
+}
+
+.channel-thumb{
+width:100%;
 border-radius:6px;
+margin-bottom:10px;
+}
+
+.channel-card ul{
+list-style:none;
+padding:0;
+font-size:14px;
+}
+
+.channel-card li{
+padding:4px 0;
+border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
 .login-container{
