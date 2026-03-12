@@ -35,20 +35,29 @@ margin-top:30px;
 
 .now-showing{
 display:flex;
-gap:25px;
+gap:20px;
 padding:20px;
 }
 
-.show{
-background:#1e1e1e;
-padding:40px;
-border-radius:8px;
-width:250px;
+.show-card{
+position:relative;
+width:260px;
+cursor:pointer;
 }
 
-.show:hover{
-background:#333;
-cursor:pointer;
+.show-card img{
+width:100%;
+border-radius:8px;
+}
+
+.show-info{
+position:absolute;
+bottom:10px;
+left:10px;
+background:rgba(0,0,0,0.7);
+padding:5px 10px;
+border-radius:4px;
+font-size:14px;
 }
 
 .channels{
