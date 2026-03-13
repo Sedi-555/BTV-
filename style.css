@@ -237,12 +237,23 @@ padding:20px;
 border-radius:6px;
 }
 
-.ad-section{
-margin:30px;
-text-align:center;
+.ad-ribbon{
+display:flex;
+width:100%;
+height:70px;
+overflow:hidden;
+margin-top:30px;
+border-top:1px solid rgba(255,255,255,0.1);
+border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
-.ad-section img{
-width:320px;
-border-radius:8px;
+.ad-ribbon img{
+width:20%;
+height:100%;
+object-fit:cover;
+}
+
+.ad-ribbon img:hover{
+transform:scale(1.05);
+transition:0.3s;
 }
