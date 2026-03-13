@@ -34,8 +34,8 @@ margin-top:30px;
 }
 
 .now-showing{
-display:flex;
-flex-direction:row;
+display:grid;
+grid-template-columns: repeat(3, 260px);
 gap:20px;
 padding:20px;
 }
