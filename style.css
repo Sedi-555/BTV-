@@ -35,6 +35,7 @@ margin-top:30px;
 
 .now-showing{
 display:flex;
+flex-direction:row;
 gap:20px;
 padding:20px;
 }
@@ -43,11 +44,19 @@ padding:20px;
 position:relative;
 width:260px;
 cursor:pointer;
+fllex-shrink:0;
 }
 
 .show-card img{
 width:100%;
+height:150px;
+object-fit:cover;
 border-radius:8px;
+}
+
+.show-card:hover{
+transform:scale(1.05);
+transition:0.3s;
 }
 
 .show-info{
